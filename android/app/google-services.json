@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "562003761885",
+    "project_id": "sovuon-1edf3",
+    "storage_bucket": "sovuon-1edf3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562003761885:android:720103c14d92946ec49934",
+        "android_client_info": {
+          "package_name": "com.sovuon.app.so_vuon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJtOTpsT8X5yRbzy564uPTUDWJDqSx8jQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
