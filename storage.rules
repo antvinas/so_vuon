@@ -1,0 +1,16 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    // 기본적으로 모든 읽기 및 쓰기 거부
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+
+    // 사용자는 자신의 폴더에 있는 파일만 읽고, 쓰고, 삭제할 수 있습니다.
+    // 파일 경로는 `users/{userId}/...` 형식이어야 합니다.
+    match /users/{userId}/{allPaths=**} {
+      allow read, write: if request.auth.uid == userId;
+    }
+  }
+}

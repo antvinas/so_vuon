@@ -99,6 +99,138 @@ abstract class AppLocalizations {
     Locale('ko'),
     Locale('vi')
   ];
+
+  /// No description provided for @settings.
+  ///
+  /// In en, this message translates to:
+  /// **'Settings'**
+  String get settings;
+
+  /// No description provided for @profile.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get profile;
+
+  /// No description provided for @appSettings.
+  ///
+  /// In en, this message translates to:
+  /// **'App Settings'**
+  String get appSettings;
+
+  /// No description provided for @notifications.
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications'**
+  String get notifications;
+
+  /// No description provided for @receiveNotifications.
+  ///
+  /// In en, this message translates to:
+  /// **'Receive Notifications'**
+  String get receiveNotifications;
+
+  /// No description provided for @notificationTime.
+  ///
+  /// In en, this message translates to:
+  /// **'Notification Time'**
+  String get notificationTime;
+
+  /// No description provided for @data.
+  ///
+  /// In en, this message translates to:
+  /// **'Data'**
+  String get data;
+
+  /// No description provided for @dataBackup.
+  ///
+  /// In en, this message translates to:
+  /// **'Data Backup'**
+  String get dataBackup;
+
+  /// No description provided for @dataRestore.
+  ///
+  /// In en, this message translates to:
+  /// **'Data Restore'**
+  String get dataRestore;
+
+  /// No description provided for @logout.
+  ///
+  /// In en, this message translates to:
+  /// **'Logout'**
+  String get logout;
+
+  /// No description provided for @theme.
+  ///
+  /// In en, this message translates to:
+  /// **'Theme'**
+  String get theme;
+
+  /// No description provided for @themeSystem.
+  ///
+  /// In en, this message translates to:
+  /// **'System'**
+  String get themeSystem;
+
+  /// No description provided for @themeLight.
+  ///
+  /// In en, this message translates to:
+  /// **'Light'**
+  String get themeLight;
+
+  /// No description provided for @themeDark.
+  ///
+  /// In en, this message translates to:
+  /// **'Dark'**
+  String get themeDark;
+
+  /// No description provided for @currency.
+  ///
+  /// In en, this message translates to:
+  /// **'Currency'**
+  String get currency;
+
+  /// No description provided for @currencyKRW.
+  ///
+  /// In en, this message translates to:
+  /// **'KRW'**
+  String get currencyKRW;
+
+  /// No description provided for @currencyUSD.
+  ///
+  /// In en, this message translates to:
+  /// **'USD'**
+  String get currencyUSD;
+
+  /// No description provided for @currencyVND.
+  ///
+  /// In en, this message translates to:
+  /// **'VND'**
+  String get currencyVND;
+
+  /// No description provided for @language.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get language;
+
+  /// No description provided for @languageKO.
+  ///
+  /// In en, this message translates to:
+  /// **'Korean'**
+  String get languageKO;
+
+  /// No description provided for @languageEN.
+  ///
+  /// In en, this message translates to:
+  /// **'English'**
+  String get languageEN;
+
+  /// No description provided for @languageVI.
+  ///
+  /// In en, this message translates to:
+  /// **'Vietnamese'**
+  String get languageVI;
 }
 
 class _AppLocalizationsDelegate
